@@ -7,7 +7,16 @@ package com.khdz.patrol.netpatrolapp.Model;
 
 public class Employee extends User {
     private String mCard;
-    private String mName;
+
+    private String Name;
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
 
     public String getCard() {
         return mCard;
@@ -17,11 +26,4 @@ public class Employee extends User {
         mCard = card;
     }
 
-    public String getName() {
-        return mName;
-    }
-
-    public void setName(String name) {
-        mName = name;
-    }
 }

@@ -1,1 +1,2 @@
+include ':usbSerialLibrary'
 include ':app'

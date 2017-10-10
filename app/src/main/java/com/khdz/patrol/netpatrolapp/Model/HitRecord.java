@@ -9,7 +9,7 @@ import java.util.Date;
 
 public class HitRecord {
     private String mDeviceId;//巡检机机号
-    private Date mTime;
+    private Date mTime;//撞击的时间
 
     public String getDeviceId() {
         return mDeviceId;

@@ -8,10 +8,10 @@ import java.util.List;
  */
 
 public class Route {
-    private int mId;
-    private String mName;
-    private List<Place> mPlaces;
-    private int mStationId;
+    private int mId;//主键
+    private String mName;// 路线名字
+    private List<Place> mPlaces;//路线包含的巡更点
+    private int mStationId;//工作站
 
     public int getId() {
         return mId;

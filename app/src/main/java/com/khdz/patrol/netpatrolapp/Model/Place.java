@@ -7,9 +7,9 @@ package com.khdz.patrol.netpatrolapp.Model;
 
 public class Place {
     private int mId;
-    private int mOrder;
-    private int mName;
-    private int mCard;
+    private int mOrder;//地点序号
+    private String mName;
+    private String mCard;
     private int mRouteId;
 
     public int getId() {
@@ -28,20 +28,20 @@ public class Place {
         mOrder = order;
     }
 
-    public int getName() {
+    public String getmName() {
         return mName;
     }
 
-    public void setName(int name) {
-        mName = name;
+    public void setmName(String mName) {
+        this.mName = mName;
     }
 
-    public int getCard() {
+    public String getmCard() {
         return mCard;
     }
 
-    public void setCard(int card) {
-        mCard = card;
+    public void setmCard(String mCard) {
+        this.mCard = mCard;
     }
 
     public int getRouteId() {

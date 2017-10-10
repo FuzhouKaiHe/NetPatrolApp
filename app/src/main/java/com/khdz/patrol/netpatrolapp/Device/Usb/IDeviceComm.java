@@ -2,7 +2,7 @@ package com.khdz.patrol.netpatrolapp.Device.Usb;
 
 import com.khdz.patrol.netpatrolapp.Model.Employee;
 import com.khdz.patrol.netpatrolapp.Model.HitRecord;
-import com.khdz.patrol.netpatrolapp.Model.PatrolRecord;
+import com.khdz.patrol.netpatrolapp.Model.DeviceRecord;
 import com.khdz.patrol.netpatrolapp.Model.Route;
 
 import java.util.Date;
@@ -20,11 +20,12 @@ public interface IDeviceComm {
      * 获取当前连接的巡更机的所有读卡记录
      * 1.获取机号
      * 2.获取记录数
-     * 3.读取每条记录
-     * @return 所有读卡记录
+     * 3.
+     * @return 所有读卡记录读取每条记录
      * @throws SerialException 当获取失败时抛出异常
      */
-    List<PatrolRecord> getPatrolRecords() throws SerialException;
+
+    List<DeviceRecord> getPatrolRecords() throws SerialException;
 
     /**
      * 清空巡检机中的读卡记录

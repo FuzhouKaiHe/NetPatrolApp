@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#3f51b5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="blue">#2c82c9</color>
+    <color name="green">#2CC990</color>
+    <color name="yellow">#EEE657</color>
+    <color name="curry">#FCB941</color>
+    <color name="red">#FC6042</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#DDDDDD</color>
+
+
+    <color name="main_query_patrol_record">#2CC990</color>
+    <color name="main_query_patrol_point">#2C82C9</color>
+    <color name="main_query_patrol_worker">#FCB941</color>
+
+    <color name="main_upload_record">#FC6042</color>
+    <color name="main_more">#9C27B0</color>
+
+
+    <color name="sub_set_machine">#FF5722</color>
+    <color name="sub_test_machine">#536DFE</color>
+    <color name="sub_query_plan">#9C27B0</color>
+    <color name="sub_add_plan">#F57C00</color>
+    <color name="sub_set_permission">#E91E63</color>
+    <color name="sub_set_plan">#388E3C</color>
+
+    <color name="userLogined">@color/green</color>
+    <color name="userNotLogin">#235991</color>
 </resources>

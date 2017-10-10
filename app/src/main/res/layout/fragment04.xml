@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/btn_set_clock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/background_light"
+        android:text="清理巡检数据" />
+
+    <View
+        android:id="@+id/separator1"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/mTitleTextView"
+        android:layout_height="1dip"
+        android:background="#eeeeee" />
+
+    <Button
+        android:id="@+id/btn_check_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/background_light"
+        android:text="清理考核结果" />
+
+    <View
+        android:id="@+id/separator2"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/mTitleTextView"
+        android:layout_height="10dip"
+        android:background="#eeeeee" />
+
+    <Button
+        android:id="@+id/btn_rename_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/background_light"
+        android:text="系统初始化" />
+
+    <View
+        android:id="@+id/separator3"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/mTitleTextView"
+        android:layout_height="1dip"
+        android:background="#eeeeee" />
+
+    <Button
+        android:id="@+id/btn_rename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/background_light"
+        android:text="用户管理" />
+
+    <View
+        android:id="@+id/separator4"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/mTitleTextView"
+        android:layout_height="1dip"
+        android:background="#eeeeee" />
+
+    <Button
+        android:id="@+id/btn_rename_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/background_light"
+        android:text="修改密码" />
+
+    <View
+        android:id="@+id/separator5"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/mTitleTextView"
+        android:layout_height="1dip"
+        android:background="#eeeeee" />
+
+    <Button
+        android:id="@+id/btn_toggle_user1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:text="通讯管理" />
+
+    <View
+        android:id="@+id/separator6"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/mTitleTextView"
+        android:layout_height="15dip"
+        android:background="#eeeeee" />
+
+    <Button
+        android:id="@+id/btn_toggle_user2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:text="关于我们" />
+
+    <View
+        android:id="@+id/separator7"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/mTitleTextView"
+        android:layout_height="20dip"
+        android:background="#eeeeee" />
+
+    <Button
+        android:id="@+id/btn_toggle_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:text="切换账号" />
+
+    <View
+        android:id="@+id/separator8"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/mTitleTextView"
+        android:layout_height="1dip"
+        android:background="#eeeeee" />
+
+</LinearLayout>

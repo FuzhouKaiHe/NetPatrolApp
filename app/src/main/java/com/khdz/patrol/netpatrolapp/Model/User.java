@@ -6,12 +6,13 @@ package com.khdz.patrol.netpatrolapp.Model;
  */
 
 public class User {
-    protected int mId;
-    protected String mUsername;
-    protected String mPassword;
+    protected int mId;//用户的ID,主键
 
-    protected String mCompanyCode;
-    protected int mStationId;
+    protected String mCompanyCode;//公司编号：8位
+    protected String mUsername;//用户名
+    protected String mPassword;//密码
+
+    protected int mStationId;//工作站的ID
 
     public int getId() {
         return mId;
@@ -19,6 +20,14 @@ public class User {
 
     public void setId(int id) {
         mId = id;
+    }
+
+    public String getCompanyCode() {
+        return mCompanyCode;
+    }
+
+    public void setCompanyCode(String companyCode) {
+        mCompanyCode = companyCode;
     }
 
     public String getUsername() {
@@ -35,14 +44,6 @@ public class User {
 
     public void setPassword(String password) {
         mPassword = password;
-    }
-
-    public String getCompanyCode() {
-        return mCompanyCode;
-    }
-
-    public void setCompanyCode(String companyCode) {
-        mCompanyCode = companyCode;
     }
 
     public int getStationId() {
